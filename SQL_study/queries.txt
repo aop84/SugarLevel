@@ -48,7 +48,8 @@ CREATE TABLE public."MyFirstTable"
   username text NOT NULL,
   country text NOT NULL,
   city text NOT NULL,
-  date date NOT NULL
+  date date NOT NULL,
+  password text NOT NULL
 )
 WITH (
   OIDS=FALSE
