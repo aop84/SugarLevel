@@ -57,24 +57,36 @@ WITH (
 ALTER TABLE public."MyFirstTable"
   OWNER TO postgres;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (1, 'Ivanov', 'Belarus', 'Minsk', '30/05/1980', 'qaz123');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (1, 'Ivanov', 'Belarus', 'Minsk', '30/05/1980', 'qaz123');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (1, 'Ivanov', 'Belarus', 'Minsk', '30/05/1980', 'qaz123');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (2, 'Petrov', 'Belarus', 'Minsk', '31/05/1980', 'wsx456');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (2, 'Petrov', 'Belarus', 'Minsk', '31/05/1980', 'wsx456');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (2, 'Petrov', 'Belarus', 'Minsk', '31/05/1980', 'wsx456');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (2, 'Petrov', 'Belarus', 'Minsk', '31/05/1980', 'wsx456');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (3, 'Sidorov', 'Belarus', 'Pinsk', '08/09/1984', 'edc789');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (3, 'Sidorov', 'Belarus', 'Pinsk', '08/09/1984', 'edc789');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (3, 'Sidorov', 'Belarus', 'Pinsk', '08/09/1984', 'edc789');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (3, 'Sidorov', 'Belarus', 'Pinsk', '08/09/1984', 'edc789');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
 
 
 
