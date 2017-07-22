@@ -38,6 +38,23 @@ INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country)
 VALUES (11, 'sf', '2/2/1983', 23, 'Andrey', 'Russia');
 
 
+-- Table: public."MyFirstTable"
+
+-- DROP TABLE public."MyFirstTable";
+
+CREATE TABLE public."MyFirstTable"
+(
+  id integer NOT NULL,
+  username text NOT NULL,
+  country text NOT NULL,
+  city text NOT NULL,
+  date date NOT NULL
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."MyFirstTable"
+  OWNER TO postgres;
 
 
 
