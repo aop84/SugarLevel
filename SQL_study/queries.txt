@@ -1,0 +1,63 @@
+﻿
+
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 1);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 10);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 11);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 12);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 13);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 14);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 15);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 16);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 17);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 18);
+
+
+DELETE FROM public."SugarLevel" WHERE id=12;
+	
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=1;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=2;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=10;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=11;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=13;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=14;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=15;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=16;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=17;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=18;
+
+
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 19, 'Andrey', 'Russia');
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 20, 'Andrey', 'Russia');
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 21, 'Andrey', 'Russia');
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 22, 'Andrey', 'Russia');
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 23, 'Andrey', 'Russia');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
