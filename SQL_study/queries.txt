@@ -122,6 +122,68 @@ WITH (
 ALTER TABLE public."SugarLevel"
   OWNER TO postgres;
 
+  
+  
+  INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (1, 'Olga', 'Belarus', 'Minsk', '01/07/2017', 4.9, '123qaz');
+INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (2, 'Olga', 'Belarus', 'Minsk', '02/07/2017', 5.9, '123qaz');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (3, 'Olga', 'Belarus', 'Minsk', '03/07/2017', 6.9, '123qaz');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (4, 'Olga', 'Belarus', 'Minsk', '01/07/2017', 7.9, '123qaz');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (5, 'Olga', 'Belarus', 'Minsk', '01/07/2017', 8.9, '123qaz');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (6, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 9.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (7, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 3.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (8, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 4.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (9, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 5.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (10, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 6.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (11, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 7.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (12, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 8.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (13, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 9.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (14, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 2.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (15, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 3.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (16, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 4.9, '123qaz3');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (17, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 5.9, '123qaz3');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (18, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 6.9, '123qaz3');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (19, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 7.9, '123qaz3');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (20, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 8.9, '123qaz3');
 
 
 
