@@ -88,21 +88,20 @@ VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
 INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
 VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
 
+-- Table: public."SugarLevel"
+
+-- DROP TABLE public."SugarLevel";
+
 CREATE TABLE public."SugarLevel"
 (
-  id integer NOT NULL,
-  username text NOT NULL,
-  country text NOT NULL,
-  city text NOT NULL,
-  date date NOT NULL,
-  password text NOT NULL,
-  sugar_level numeric(4,2)
+
 )
 WITH (
   OIDS=FALSE
 );
 ALTER TABLE public."SugarLevel"
   OWNER TO postgres;
+
 
 
 
