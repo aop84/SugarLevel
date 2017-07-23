@@ -185,6 +185,24 @@ INSERT INTO public."SugarLevel"(
             id, username, contry, city, date, sugar_level, password)
     VALUES (20, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 8.9, '123qaz3');
 
+	
 
+-- Table: public."Diabetic"
+
+-- DROP TABLE public."Diabetic";
+
+CREATE TABLE public."Diabetic"
+(
+  user_id integer NOT NULL,
+  username text NOT NULL,
+  contry text NOT NULL,
+  city text NOT NULL,
+  password text NOT NULL
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."Diabetic"
+  OWNER TO postgres;
 
 
