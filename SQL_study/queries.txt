@@ -219,3 +219,26 @@ INSERT INTO public."Diabetic"(
 	INSERT INTO public."Diabetic"(
             user_id, username, contry, city, password)
     VALUES (16, 'Vera', 'Belarus', 'Pinsk', '123qaz3')
+	
+	
+	
+UPDATE public."SugarLevel" SET date='01/02/2017', sugar_level='10' WHERE id='1';
+UPDATE public."SugarLevel" SET date='02/02/2017', sugar_level='3' WHERE id='2';
+UPDATE public."SugarLevel" SET date='01/03/2017', sugar_level='4' WHERE id='3';
+UPDATE public."SugarLevel" SET date='01/04/2017', sugar_level='5' WHERE id='4';
+UPDATE public."SugarLevel" SET date='01/01/2017', sugar_level='6' WHERE id='5';
+UPDATE public."SugarLevel" SET date='01/05/2017', sugar_level='7' WHERE id='6';
+UPDATE public."SugarLevel" SET date='01/06/2017', sugar_level='8' WHERE id='7';
+UPDATE public."SugarLevel" SET date='01/07/2017', sugar_level='9' WHERE id='8';
+UPDATE public."SugarLevel" SET date='03/02/2017', sugar_level='11' WHERE id='9';
+UPDATE public."SugarLevel" SET date='04/02/2017', sugar_level='12' WHERE id='10';
+UPDATE public."SugarLevel" SET date='05/02/2017', sugar_level='13' WHERE id='11';
+UPDATE public."SugarLevel" SET date='06/02/2017', sugar_level='5.1' WHERE id='12';
+UPDATE public."SugarLevel" SET date='07/02/2017', sugar_level='2.8' WHERE id='13';
+UPDATE public."SugarLevel" SET date='08/02/2017', sugar_level='3.2' WHERE id='14';
+UPDATE public."SugarLevel" SET date='09/02/2017', sugar_level='4.7' WHERE id='15';
+UPDATE public."SugarLevel" SET date='10/02/2017', sugar_level='5.4' WHERE id='16';
+UPDATE public."SugarLevel" SET date='11/02/2017', sugar_level='8.2' WHERE id='17';
+UPDATE public."SugarLevel" SET date='12/02/2017', sugar_level='6.3' WHERE id='18';
+UPDATE public."SugarLevel" SET date='14/02/2017', sugar_level='9.9' WHERE id='19';
+UPDATE public."SugarLevel" SET date='15/02/2017', sugar_level='7.5' WHERE id='20';
