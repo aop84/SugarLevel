@@ -89,5 +89,5 @@ INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
 VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
 
 
-
+тиамрт 
 
