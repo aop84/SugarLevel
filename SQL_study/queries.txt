@@ -257,3 +257,5 @@ UPDATE public."SugarLevel" SET user_id=1  WHERE username='Olga';
 UPDATE public."SugarLevel" SET user_id=2  WHERE username='Oleg';
 UPDATE public."SugarLevel" SET user_id=3  WHERE username='Lisa';
 UPDATE public."SugarLevel" SET user_id=4  WHERE username='Vera';
+
+ALTER TABLE public."SugarLevel" ALTER COLUMN user_id SET NOT NULL;
