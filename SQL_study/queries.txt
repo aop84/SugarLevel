@@ -242,3 +242,9 @@ UPDATE public."SugarLevel" SET date='11/02/2017', sugar_level='8.2' WHERE id='17
 UPDATE public."SugarLevel" SET date='12/02/2017', sugar_level='6.3' WHERE id='18';
 UPDATE public."SugarLevel" SET date='14/02/2017', sugar_level='9.9' WHERE id='19';
 UPDATE public."SugarLevel" SET date='15/02/2017', sugar_level='7.5' WHERE id='20';
+
+
+UPDATE public."Diabetic" SET user_id=1 WHERE username='Olga';
+UPDATE public."Diabetic" SET user_id=2 WHERE username='Oleg';
+UPDATE public."Diabetic" SET user_id=3 WHERE username='Lisa';
+UPDATE public."Diabetic" SET user_id=4 WHERE username='Vera';
