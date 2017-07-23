@@ -6,8 +6,13 @@
 </head>
 <body>
 <form action="formdata.php" metod="POST" name="form1">
+<fieldset>
+<legend>Ввод личных данных</legend>
 <p><label>Введите Ваше имя (максимально 10 символов): <input type="text" name="name" size="30" maxlength="10"><label></p>
 <p><label>Введите Ваш пароль (максимально 10 символов): <input type="password" name="name" size="30" maxlength="10"><label></p>
+</fieldset>
+<fieldset>
+<legend>Вопросы</legend>
 <p>Любите ли Вы экономить время? 
 <label>Да<input type="radio" name="time" value="yes" checked></label>
 <label>Нет<input type="radio" name="time" value="no"></l</p>
@@ -30,6 +35,7 @@
 <option>больше 8</option>
 </select>
 </p>
+</fieldset>
 <p><label for="text">Поделитесь своими наработками в экономии времени</label><p>
 <p><textarea name="text" cols="50" rows="6" id="text">Тестовый текст...</textarea></p>
 <p><input type="reset" name="reset" value="Сброс"><input type="submit" name="submit" value="Отправить"></p>
