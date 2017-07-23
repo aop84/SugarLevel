@@ -102,6 +102,26 @@ WITH (
 ALTER TABLE public."SugarLevel"
   OWNER TO postgres;
 
+  -- Table: public."SugarLevel"
+
+-- DROP TABLE public."SugarLevel";
+
+CREATE TABLE public."SugarLevel"
+(
+  id integer NOT NULL,
+  username text NOT NULL,
+  contry text NOT NULL,
+  city text NOT NULL,
+  date date NOT NULL,
+  sugar_level numeric(4,2) NOT NULL,
+  password text NOT NULL
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."SugarLevel"
+  OWNER TO postgres;
+
 
 
 
