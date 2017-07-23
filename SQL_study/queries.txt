@@ -204,5 +204,18 @@ WITH (
 );
 ALTER TABLE public."Diabetic"
   OWNER TO postgres;
-
-
+  
+  
+  
+  INSERT INTO public."Diabetic"(
+            user_id, username, contry, city, password)
+    VALUES (1, 'Olga', 'Belarus', 'Minsk', '123qaz');
+INSERT INTO public."Diabetic"(
+            user_id, username, contry, city, password)
+    VALUES (6, 'Oleg', 'Belarus', 'Minsk', '123qaz1');
+	INSERT INTO public."Diabetic"(
+            user_id, username, contry, city, password)
+    VALUES (11, 'Lisa', 'Belarus', 'Pinsk', '123qaz2');
+	INSERT INTO public."Diabetic"(
+            user_id, username, contry, city, password)
+    VALUES (16, 'Vera', 'Belarus', 'Pinsk', '123qaz3')
