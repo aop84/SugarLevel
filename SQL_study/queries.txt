@@ -271,3 +271,6 @@ SELECT id, username, contry, city, password, date, sugar_level, user_id
   
   SELECT id, username, contry, city, date, sugar_level, password, user_id
   FROM public."SugarLevel" WHERE user_id IN (1,2) OR id = 12;
+  
+  SELECT id, username, contry, city, date, sugar_level, password, user_id
+  FROM public."SugarLevel" WHERE date < '17/02/2017' AND date > '5/02/2017';
