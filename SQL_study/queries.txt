@@ -265,3 +265,6 @@ SELECT id, username, contry, city, password, date, sugar_level, user_id
   
   SELECT id, username, contry, city, password, date, sugar_level, user_id
   FROM public."SugarLevel" WHERE sugar_level=10.00 AND city='Minsk' ;
+
+  SELECT id, username, contry, city, password, date, sugar_level, user_id
+  FROM public."SugarLevel" WHERE id IN (1,2,3) AND sugar_level = 3;
