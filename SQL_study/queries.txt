@@ -279,3 +279,6 @@ SELECT id, username, contry, city, password, date, sugar_level, user_id
   
   SELECT id, username, contry, city, password, date, sugar_level, user_id
   FROM public."SugarLevel" WHERE date >'01/02/2017' OR date='01/02/2017' AND date < '28/02/2017';
+  
+  SELECT id, username, contry, city, password, date, sugar_level, user_id
+  FROM public."SugarLevel" WHERE sugar_level>3.00 OR sugar_level=3.00 AND sugar_level < 11.00
