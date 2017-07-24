@@ -259,3 +259,6 @@ UPDATE public."SugarLevel" SET user_id=3  WHERE username='Lisa';
 UPDATE public."SugarLevel" SET user_id=4  WHERE username='Vera';
 
 ALTER TABLE public."SugarLevel" ALTER COLUMN user_id SET NOT NULL;
+
+SELECT id, username, contry, city, password, date, sugar_level, user_id
+  FROM public."SugarLevel" WHERE sugar_level=7.50;
