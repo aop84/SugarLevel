@@ -268,3 +268,6 @@ SELECT id, username, contry, city, password, date, sugar_level, user_id
 
   SELECT id, username, contry, city, password, date, sugar_level, user_id
   FROM public."SugarLevel" WHERE id IN (1,2,3) AND sugar_level = 3;
+  
+  SELECT id, username, contry, city, date, sugar_level, password, user_id
+  FROM public."SugarLevel" WHERE user_id IN (1,2) OR id = 12;
