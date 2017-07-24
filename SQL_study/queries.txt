@@ -274,3 +274,5 @@ SELECT id, username, contry, city, password, date, sugar_level, user_id
   
   SELECT id, username, contry, city, date, sugar_level, password, user_id
   FROM public."SugarLevel" WHERE date < '17/02/2017' AND date > '5/02/2017';
+  
+  SELECT id FROM public."SugarLevel";
