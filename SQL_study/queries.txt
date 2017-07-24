@@ -262,3 +262,6 @@ ALTER TABLE public."SugarLevel" ALTER COLUMN user_id SET NOT NULL;
 
 SELECT id, username, contry, city, password, date, sugar_level, user_id
   FROM public."SugarLevel" WHERE sugar_level=7.50;
+  
+  SELECT id, username, contry, city, password, date, sugar_level, user_id
+  FROM public."SugarLevel" WHERE sugar_level=10.00 AND city='Minsk' ;
