@@ -1,8 +1,13 @@
 <?php
 
-echo $_POST['password'];
-echo $_POST['name'];
-echo $_POST['sleep'];
+$result = mail("test@test.ru", "Анкета с сайта", "Сообщение (тело письма)");
+if ($result) (
+echo "<p>Сообщение отправлено успешно!</p>";
+)
+else (
+echo "<p>Сообщение не отправлено.</p>";
+)
+
 
 
 ?>
