@@ -389,6 +389,7 @@ SELECT max(sugar_level) FROM public."SugarLevel";
 SELECT min(sugar_level) FROM public."SugarLevel";
 SELECT avg(sugar_level) FROM public."SugarLevel";
 SELECT corr(sugar_level, sugar_level ) FROM public."SugarLevel";
+SELECT count(sugar_level), avg(sugar_level) FROM public."SugarLevel" WHERE date='01/02/2017' AND date < '01/07/2017';
 
   
   
