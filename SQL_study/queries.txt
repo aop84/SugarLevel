@@ -388,6 +388,7 @@ SELECT sum(sugar_level) FROM public."SugarLevel" WHERE user_id=3;
 SELECT max(sugar_level) FROM public."SugarLevel";
 SELECT min(sugar_level) FROM public."SugarLevel";
 SELECT avg(sugar_level) FROM public."SugarLevel";
+SELECT corr(sugar_level, sugar_level ) FROM public."SugarLevel";
 
   
   
