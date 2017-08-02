@@ -376,6 +376,7 @@ SELECT id, username, contry, city, password, date, sugar_level, user_id
   
   
   SELECT * FROM public."Diabetic" AS td1;
+SELECT city, user_id FROM public."Diabetic" AS td1 WHERE username='Lisa';
 
   
   
