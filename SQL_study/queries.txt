@@ -396,7 +396,23 @@ SELECT * FROM public."SugarLevel" ORDER BY sugar_level;
 SELECT * FROM public."SugarLevel" AS tsl1, public."Diabetic" AS td2;
 
   
-  
+ -- Table: public."Toponym"
+
+-- DROP TABLE public."Toponym";
+
+CREATE TABLE public."Toponym"
+(
+  id_toponym integer NOT NULL,
+  country_name text NOT NULL,
+  city_name text NOT NULL,
+  usd text NOT NULL
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."Toponym"
+  OWNER TO postgres;
+
   
   
   
