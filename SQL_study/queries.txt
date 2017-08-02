@@ -387,6 +387,7 @@ SELECT count (td1.username) FROM public."Diabetic" AS td1, public."Diabetic" AS 
 SELECT sum(sugar_level) FROM public."SugarLevel" WHERE user_id=3;
 SELECT max(sugar_level) FROM public."SugarLevel";
 SELECT min(sugar_level) FROM public."SugarLevel";
+SELECT avg(sugar_level) FROM public."SugarLevel";
 
   
   
