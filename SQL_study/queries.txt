@@ -412,9 +412,12 @@ WITH (
 );
 ALTER TABLE public."Toponym"
   OWNER TO postgres;
-
   
-  
+INSERT INTO public."Toponym"(id_toponym, country_name, city_name, usd)
+VALUES (1, 'Belarus', 'Minsk', 'BYN');
+INSERT INTO public."Toponym"(id_toponym, country_name, city_name, usd)
+VALUES (2, 'Belarus', 'Pinsk', 'BYN');
+ 
   
   
   
