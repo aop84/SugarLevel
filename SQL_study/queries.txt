@@ -392,6 +392,7 @@ SELECT corr(sugar_level, sugar_level ) FROM public."SugarLevel";
 SELECT count(sugar_level), avg(sugar_level) FROM public."SugarLevel" WHERE date='01/02/2017' AND date < '01/07/2017';
 SELECT cast(sugar_level as integer) FROM public."SugarLevel";
 SELECT cast (id as text), cast (date as text), cast (sugar_level as text), cast (user_id as text) FROM public."SugarLevel";
+SELECT * FROM public."SugarLevel" ORDER BY sugar_level;
 
   
   
