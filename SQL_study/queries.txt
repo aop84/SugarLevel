@@ -383,6 +383,7 @@ SELECT * FROM public."Diabetic" AS td1, public."Diabetic" AS td2, public."Diabet
 SELECT count (username) FROM public."Diabetic" WHERE username='Olga';
 SELECT count (user_id) FROM public."Diabetic";
 SELECT count (*) FROM public."Diabetic" AS td1, public."Diabetic" AS td2, public."Diabetic" AS td3;
+SELECT count (td1.username) FROM public."Diabetic" AS td1, public."Diabetic" AS td2;
 
   
   
