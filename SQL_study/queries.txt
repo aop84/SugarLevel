@@ -373,6 +373,41 @@ SELECT id, username, contry, city, password, date, sugar_level, user_id
   
   SELECT id, username, contry, city, password, date, sugar_level, user_id
   FROM public."SugarLevel" WHERE sugar_level>3.00 OR sugar_level=3.00 AND sugar_level < 11.00
+  
+  
+  SELECT * FROM public."Diabetic" AS td1;
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
