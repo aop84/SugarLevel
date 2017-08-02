@@ -381,6 +381,7 @@ SELECT td1.city FROM public."Diabetic" AS td1;
 SELECT td1.user_id, td2.user_id FROM public."Diabetic" AS td1, public."Diabetic" AS td2;
 SELECT * FROM public."Diabetic" AS td1, public."Diabetic" AS td2, public."Diabetic" AS td3;
 SELECT count (username) FROM public."Diabetic" WHERE username='Olga';
+SELECT count (user_id) FROM public."Diabetic";
 
   
   
