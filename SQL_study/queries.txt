@@ -88,6 +88,365 @@ VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
 INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
 VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
 
+SELECT id
+FROM public."SugarLevel" WHERE username='Oleg' AND sugar_level=7.00;
+
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 1);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 10);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 11);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 12);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 13);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 14);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 15);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 16);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 17);
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id) VALUES (11, 'sf', '2/2/1983', 18);
+
+
+DELETE FROM public."SugarLevel" WHERE id=12;
+	
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=1;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=2;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=10;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=11;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=13;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=14;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=15;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=16;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=17;
+UPDATE public."SugarLevel" SET username='Olga', country='Belarus' WHERE id=18;
+
+
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 19, 'Andrey', 'Russia');
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 20, 'Andrey', 'Russia');
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 21, 'Andrey', 'Russia');
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 22, 'Andrey', 'Russia');
+INSERT INTO public."SugarLevel"(sugar_level, state, date, id, username, country) 
+VALUES (11, 'sf', '2/2/1983', 23, 'Andrey', 'Russia');
+
+
+-- Table: public."MyFirstTable"
+
+-- DROP TABLE public."MyFirstTable";
+
+CREATE TABLE public."MyFirstTable"
+(
+  id integer NOT NULL,
+  username text NOT NULL,
+  country text NOT NULL,
+  city text NOT NULL,
+  date date NOT NULL,
+  password text NOT NULL
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."MyFirstTable"
+  OWNER TO postgres;
+
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (1, 'Ivanov', 'Belarus', 'Minsk', '30/05/1980', 'qaz123');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (1, 'Ivanov', 'Belarus', 'Minsk', '30/05/1980', 'qaz123');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (1, 'Ivanov', 'Belarus', 'Minsk', '30/05/1980', 'qaz123');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (2, 'Petrov', 'Belarus', 'Minsk', '31/05/1980', 'wsx456');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (2, 'Petrov', 'Belarus', 'Minsk', '31/05/1980', 'wsx456');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (2, 'Petrov', 'Belarus', 'Minsk', '31/05/1980', 'wsx456');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (2, 'Petrov', 'Belarus', 'Minsk', '31/05/1980', 'wsx456');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (3, 'Sidorov', 'Belarus', 'Pinsk', '08/09/1984', 'edc789');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (3, 'Sidorov', 'Belarus', 'Pinsk', '08/09/1984', 'edc789');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (3, 'Sidorov', 'Belarus', 'Pinsk', '08/09/1984', 'edc789');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (3, 'Sidorov', 'Belarus', 'Pinsk', '08/09/1984', 'edc789');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
+INSERT INTO public."MyFirstTable"(id, username, country, city, date, password)
+VALUES (4, 'Pupkin', 'Belarus', 'Pinsk', '28/10/1959', 'rfb963');
+
+-- Table: public."SugarLevel"
+
+-- DROP TABLE public."SugarLevel";
+
+CREATE TABLE public."SugarLevel"
+(
+
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."SugarLevel"
+  OWNER TO postgres;
+
+  -- Table: public."SugarLevel"
+
+-- DROP TABLE public."SugarLevel";
+
+CREATE TABLE public."SugarLevel"
+(
+  id integer NOT NULL,
+  username text NOT NULL,
+  contry text NOT NULL,
+  city text NOT NULL,
+  date date NOT NULL,
+  sugar_level numeric(4,2) NOT NULL,
+  password text NOT NULL
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."SugarLevel"
+  OWNER TO postgres;
+
+  
+  
+  INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (1, 'Olga', 'Belarus', 'Minsk', '01/07/2017', 4.9, '123qaz');
+INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (2, 'Olga', 'Belarus', 'Minsk', '02/07/2017', 5.9, '123qaz');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (3, 'Olga', 'Belarus', 'Minsk', '03/07/2017', 6.9, '123qaz');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (4, 'Olga', 'Belarus', 'Minsk', '01/07/2017', 7.9, '123qaz');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (5, 'Olga', 'Belarus', 'Minsk', '01/07/2017', 8.9, '123qaz');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (6, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 9.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (7, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 3.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (8, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 4.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (9, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 5.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (10, 'Oleg', 'Belarus', 'Minsk', '01/07/2017', 6.9, '123qaz1');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (11, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 7.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (12, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 8.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (13, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 9.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (14, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 2.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (15, 'Lisa', 'Belarus', 'Pinsk', '01/07/2017', 3.9, '123qaz2');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (16, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 4.9, '123qaz3');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (17, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 5.9, '123qaz3');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (18, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 6.9, '123qaz3');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (19, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 7.9, '123qaz3');
+	INSERT INTO public."SugarLevel"(
+            id, username, contry, city, date, sugar_level, password)
+    VALUES (20, 'Vera', 'Belarus', 'Pinsk', '01/07/2017', 8.9, '123qaz3');
+
+	
+
+-- Table: public."Diabetic"
+
+-- DROP TABLE public."Diabetic";
+
+CREATE TABLE public."Diabetic"
+(
+  user_id integer NOT NULL,
+  username text NOT NULL,
+  contry text NOT NULL,
+  city text NOT NULL,
+  password text NOT NULL
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."Diabetic"
+  OWNER TO postgres;
+  
+  
+  
+  INSERT INTO public."Diabetic"(
+            user_id, username, contry, city, password)
+    VALUES (1, 'Olga', 'Belarus', 'Minsk', '123qaz');
+INSERT INTO public."Diabetic"(
+            user_id, username, contry, city, password)
+    VALUES (6, 'Oleg', 'Belarus', 'Minsk', '123qaz1');
+	INSERT INTO public."Diabetic"(
+            user_id, username, contry, city, password)
+    VALUES (11, 'Lisa', 'Belarus', 'Pinsk', '123qaz2');
+	INSERT INTO public."Diabetic"(
+            user_id, username, contry, city, password)
+    VALUES (16, 'Vera', 'Belarus', 'Pinsk', '123qaz3')
+	
+	
+	
+UPDATE public."SugarLevel" SET date='01/02/2017', sugar_level='10' WHERE id='1';
+UPDATE public."SugarLevel" SET date='02/02/2017', sugar_level='3' WHERE id='2';
+UPDATE public."SugarLevel" SET date='01/03/2017', sugar_level='4' WHERE id='3';
+UPDATE public."SugarLevel" SET date='01/04/2017', sugar_level='5' WHERE id='4';
+UPDATE public."SugarLevel" SET date='01/01/2017', sugar_level='6' WHERE id='5';
+UPDATE public."SugarLevel" SET date='01/05/2017', sugar_level='7' WHERE id='6';
+UPDATE public."SugarLevel" SET date='01/06/2017', sugar_level='8' WHERE id='7';
+UPDATE public."SugarLevel" SET date='01/07/2017', sugar_level='9' WHERE id='8';
+UPDATE public."SugarLevel" SET date='03/02/2017', sugar_level='11' WHERE id='9';
+UPDATE public."SugarLevel" SET date='04/02/2017', sugar_level='12' WHERE id='10';
+UPDATE public."SugarLevel" SET date='05/02/2017', sugar_level='13' WHERE id='11';
+UPDATE public."SugarLevel" SET date='06/02/2017', sugar_level='5.1' WHERE id='12';
+UPDATE public."SugarLevel" SET date='07/02/2017', sugar_level='2.8' WHERE id='13';
+UPDATE public."SugarLevel" SET date='08/02/2017', sugar_level='3.2' WHERE id='14';
+UPDATE public."SugarLevel" SET date='09/02/2017', sugar_level='4.7' WHERE id='15';
+UPDATE public."SugarLevel" SET date='10/02/2017', sugar_level='5.4' WHERE id='16';
+UPDATE public."SugarLevel" SET date='11/02/2017', sugar_level='8.2' WHERE id='17';
+UPDATE public."SugarLevel" SET date='12/02/2017', sugar_level='6.3' WHERE id='18';
+UPDATE public."SugarLevel" SET date='14/02/2017', sugar_level='9.9' WHERE id='19';
+UPDATE public."SugarLevel" SET date='15/02/2017', sugar_level='7.5' WHERE id='20';
+
+
+UPDATE public."Diabetic" SET user_id=1 WHERE username='Olga';
+UPDATE public."Diabetic" SET user_id=2 WHERE username='Oleg';
+UPDATE public."Diabetic" SET user_id=3 WHERE username='Lisa';
+UPDATE public."Diabetic" SET user_id=4 WHERE username='Vera';
+
+
+ALTER TABLE public."SugarLevel" ADD COLUMN user_id integer;
+
+
+UPDATE public."SugarLevel" SET user_id=1  WHERE username='Olga';
+UPDATE public."SugarLevel" SET user_id=2  WHERE username='Oleg';
+UPDATE public."SugarLevel" SET user_id=3  WHERE username='Lisa';
+UPDATE public."SugarLevel" SET user_id=4  WHERE username='Vera';
+
+ALTER TABLE public."SugarLevel" ALTER COLUMN user_id SET NOT NULL;
+
+SELECT id, username, contry, city, password, date, sugar_level, user_id
+  FROM public."SugarLevel" WHERE sugar_level=7.50;
+  
+  SELECT id, username, contry, city, password, date, sugar_level, user_id
+  FROM public."SugarLevel" WHERE sugar_level=10.00 AND city='Minsk' ;
+
+  SELECT id, username, contry, city, password, date, sugar_level, user_id
+  FROM public."SugarLevel" WHERE id IN (1,2,3) AND sugar_level = 3;
+  
+  SELECT id, username, contry, city, date, sugar_level, password, user_id
+  FROM public."SugarLevel" WHERE user_id IN (1,2) OR id = 12;
+  
+  SELECT id, username, contry, city, date, sugar_level, password, user_id
+  FROM public."SugarLevel" WHERE date < '17/02/2017' AND date > '5/02/2017';
+  
+  SELECT id FROM public."SugarLevel";
+  
+  SELECT id, username, contry, city, password, date, sugar_level, user_id
+  FROM public."SugarLevel" WHERE date >'01/02/2017' OR date='01/02/2017' AND date < '28/02/2017';
+  
+  SELECT id, username, contry, city, password, date, sugar_level, user_id
+  FROM public."SugarLevel" WHERE sugar_level>3.00 OR sugar_level=3.00 AND sugar_level < 11.00
+  
+  
+SELECT * FROM public."Diabetic" AS td1;
+SELECT city, user_id FROM public."Diabetic" AS td1 WHERE username='Lisa';
+SELECT td1.city FROM public."Diabetic" AS td1;
+SELECT td1.user_id, td2.user_id FROM public."Diabetic" AS td1, public."Diabetic" AS td2;
+SELECT * FROM public."Diabetic" AS td1, public."Diabetic" AS td2, public."Diabetic" AS td3;
+SELECT count (username) FROM public."Diabetic" WHERE username='Olga';
+SELECT count (user_id) FROM public."Diabetic";
+SELECT count (*) FROM public."Diabetic" AS td1, public."Diabetic" AS td2, public."Diabetic" AS td3;
+SELECT count (td1.username) FROM public."Diabetic" AS td1, public."Diabetic" AS td2;
+SELECT sum(sugar_level) FROM public."SugarLevel" WHERE user_id=3;
+SELECT max(sugar_level) FROM public."SugarLevel";
+SELECT min(sugar_level) FROM public."SugarLevel";
+SELECT avg(sugar_level) FROM public."SugarLevel";
+SELECT corr(sugar_level, sugar_level ) FROM public."SugarLevel";
+SELECT count(sugar_level), avg(sugar_level) FROM public."SugarLevel" WHERE date='01/02/2017' AND date < '01/07/2017';
+SELECT cast(sugar_level as integer) FROM public."SugarLevel";
+SELECT cast (id as text), cast (date as text), cast (sugar_level as text), cast (user_id as text) FROM public."SugarLevel";
+SELECT * FROM public."SugarLevel" ORDER BY sugar_level;
+SELECT * FROM public."SugarLevel" AS tsl1, public."Diabetic" AS td2;
+
+  
+ -- Table: public."Toponym"
+
+-- DROP TABLE public."Toponym";
+
+CREATE TABLE public."Toponym"
+(
+  id_toponym integer NOT NULL,
+  country_name text NOT NULL,
+  city_name text NOT NULL,
+  usd text NOT NULL
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public."Toponym"
+  OWNER TO postgres;
+  
+INSERT INTO public."Toponym"(id_toponym, country_name, city_name, usd)
+VALUES (1, 'Belarus', 'Minsk', 'BYN');
+INSERT INTO public."Toponym"(id_toponym, country_name, city_name, usd)
+VALUES (2, 'Belarus', 'Pinsk', 'BYN');
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
 
 тиамрт 
 
