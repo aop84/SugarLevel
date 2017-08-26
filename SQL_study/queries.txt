@@ -432,6 +432,10 @@ UPDATE public."Diabetic" SET city_name='Pinsk', country='Belarus' WHERE username
   
 UPDATE public."Diabetic" AS diab  SET id_toponym = 
 (SELECT top.id_toponym FROM public."Toponym" AS top WHERE diab.city_name=top.city_name);
+
+ALTER TABLE public."Diabetic" DROP COLUMN country;
+ALTER TABLE public."Diabetic" DROP COLUMN city_name;
+
   
   
   
