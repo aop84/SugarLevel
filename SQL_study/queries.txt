@@ -423,6 +423,10 @@ ALTER TABLE public."Diabetic" RENAME COLUMN contry TO cantry;
 ALTER TABLE public."Diabetic" RENAME COLUMN cantry TO country;  
 
 ALTER TABLE public."Diabetic" ADD COLUMN id_toponym integer, ADD COLUMN city_name text;
+
+UPDATE public."Diabetic" SET city_name='Minsk', country='Belarus' WHERE username='Olga' AND username='Oleg';
+UPDATE public."Diabetic" SET city_name='Pinsk', country='Belarus' WHERE username='Lisa' AND username='Vera';
+
   
   
   
