@@ -421,6 +421,8 @@ VALUES (2, 'Belarus', 'Pinsk', 'BYN');
 ALTER TABLE public."Diabetic" ADD COLUMN contry text;
 ALTER TABLE public."Diabetic" RENAME COLUMN contry TO cantry; 
 ALTER TABLE public."Diabetic" RENAME COLUMN cantry TO country;  
+
+ALTER TABLE public."Diabetic" ADD COLUMN id_toponym integer, ADD COLUMN city_name text;
   
   
   
