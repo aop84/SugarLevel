@@ -424,12 +424,14 @@ ALTER TABLE public."Diabetic" RENAME COLUMN cantry TO country;
 
 ALTER TABLE public."Diabetic" ADD COLUMN id_toponym integer, ADD COLUMN city_name text;
 
-UPDATE public."Diabetic" SET city_name='Minsk', country='Belarus' WHERE username='Olga' AND username='Oleg';
-UPDATE public."Diabetic" SET city_name='Pinsk', country='Belarus' WHERE username='Lisa' AND username='Vera';
+UPDATE public."Diabetic" SET city_name='Minsk', country='Belarus' WHERE username='Olga' OR username='Oleg123';
+UPDATE public."Diabetic" SET city_name='Pinsk', country='Belarus' WHERE username='Lisa' OR username='Vera';
 
+  SELECT id_toponym FROM public."Toponym";
+  SELECT id_toponym FROM public."Toponym" WHERE city_name='Minsk';
   
-  
-  
+UPDATE public."Diabetic" AS diab  SET id_toponym = 
+(SELECT top.id_toponym FROM public."Toponym" AS top WHERE diab.city_name=top.city_name);
   
   
   
