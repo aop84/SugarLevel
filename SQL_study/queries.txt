@@ -417,8 +417,10 @@ INSERT INTO public."Toponym"(id_toponym, country_name, city_name, usd)
 VALUES (1, 'Belarus', 'Minsk', 'BYN');
 INSERT INTO public."Toponym"(id_toponym, country_name, city_name, usd)
 VALUES (2, 'Belarus', 'Pinsk', 'BYN');
- 
-  
+
+ALTER TABLE public."Diabetic" ADD COLUMN contry text;
+ALTER TABLE public."Diabetic" RENAME COLUMN contry TO cantry; 
+ALTER TABLE public."Diabetic" RENAME COLUMN cantry TO country;  
   
   
   
