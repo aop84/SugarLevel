@@ -436,6 +436,9 @@ UPDATE public."Diabetic" AS diab  SET id_toponym =
 ALTER TABLE public."Diabetic" DROP COLUMN country;
 ALTER TABLE public."Diabetic" DROP COLUMN city_name;
 
+SELECT * FROM public."Diabetic" AS td1, public."SugarLevel" AS tsl2, public."Toponym" AS top3;
+
+
   
   
   
