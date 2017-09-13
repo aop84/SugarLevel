@@ -9,3 +9,11 @@ p, h2, #myList {
 .new{
 	color:#6bc5e3;
 }
+
+ul li{
+	color:#cc0000;
+}
+
+p a{
+	color:#FAA21A;
+}
