@@ -1,6 +1,9 @@
 p, h2, #myList {
 	color:#800000;
 }
+p{
+	font-family:"Courier New", Verdana, Tahoma, sans-serif;
+}
 
 #header{		
 	color:#c32017;
