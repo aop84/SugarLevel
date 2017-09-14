@@ -3,6 +3,7 @@ p, h2, #myList {
 }
 p{
 	font-family:"Courier New", Verdana, Tahoma, sans-serif;
+	font-size:17px;
 }
 
 #header{		
