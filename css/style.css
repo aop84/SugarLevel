@@ -5,19 +5,15 @@ p{
 	font-family:"Courier New", Verdana, Tahoma, sans-serif;
 	font-size:17px;
 }
-
 #header{		
 	color:#c32017;
 }
-
 .new{
 	color:#6bc5e3;
 }
-
 ul li{
 	color:#cc0000;
 }
-
 a:link{
 	color:#111111;
 }
@@ -29,6 +25,12 @@ a:hover{
 }
 a:active{
 	color:#008000;
+}
+.new2{
+	font-style:italic;
+}
+.new3{
+	font-weight:bold;
 }
 
 
