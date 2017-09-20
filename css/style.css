@@ -6,11 +6,11 @@ p{
 	font-size:17px;
 	text-indent:30px;
 	line-height:1,5;
-	letter-spacing:3px;
 }
 #header{		
 	color:#c32017;
 	text-align:center;
+	text-transform:uppercase;
 }
 .new{
 	color:#6bc5e3;
