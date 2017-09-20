@@ -25,9 +25,10 @@ a:hover{
 }
 a:active{
 	color:#008000;
-}
+	}
 .new2{
 	font-style:italic;
+	text-decoration:overline;
 }
 .new3{
 	font-weight:bold;
