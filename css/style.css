@@ -37,7 +37,9 @@ a:active{
 h2{
 	text-decoration:line-through;
 }
-
+a{
+	text-decoration:none;
+}
 
 
 
