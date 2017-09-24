@@ -1,7 +1,6 @@
 body{
 	font:14px Tahoma;
-	color:#00065B;
-	border:4px solid #DB0800;
+	color:#333333;
 }
 p{
 	text-indent:30px;
@@ -10,7 +9,6 @@ p{
 #header{		
 	text-align:center;
 	text-transform:capitalize;
-	border:4px solid #DB0800;
 }
 ul{
 	list-style:inside url(../images/arrow.png);
