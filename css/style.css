@@ -18,8 +18,7 @@ p{
 	font:italic bold 16px Tahoma;
 }
 ul{
-	list-style-image:url(../images/arrow.png);
-	list-style-position:inside;
+	list-style:inside url(../images/arrow.png);
 }
 ul li{
 	color:#cc0000;
