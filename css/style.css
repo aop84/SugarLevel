@@ -19,6 +19,7 @@ p{
 }
 ul{
 	list-style-image:url(../images/arrow.png);
+	list-style-position:inside;
 }
 ul li{
 	color:#cc0000;
