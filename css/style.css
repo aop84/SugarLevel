@@ -11,9 +11,9 @@ p{
 	color:#c32017;
 	text-align:center;
 	text-transform:capitalize;
-	border-width:2px;
-	border-style:solid;
-	border-color:#DB0800;
+	border-top-width:2px;
+	border-top-style:solid;
+	border-top-color:#DB0800;
 }
 .new{
 	color:#6bc5e3;
