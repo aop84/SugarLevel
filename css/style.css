@@ -1,6 +1,7 @@
 body{
 	font:14px Tahoma;
 	color:#00065B;
+	border:4px solid #DB0800;
 }
 p{
 	text-indent:30px;
