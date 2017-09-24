@@ -1,28 +1,18 @@
-p, h2, #myList {
-	color:#800000;
+body{
+	font:14px Tahoma;
+	color:#00065B;
 }
 p{
-	font-family:"Courier New", Verdana, Tahoma, sans-serif;
-	font-size:17px;
 	text-indent:30px;
 	line-height:1,5;
 }
 #header{		
-	color:#c32017;
 	text-align:center;
 	text-transform:capitalize;
 	border:4px solid #DB0800;
 }
-.new{
-	color:#6bc5e3;
-	font:italic bold 16px Tahoma;
-}
 ul{
 	list-style:inside url(../images/arrow.png);
-}
-ul li{
-	color:#cc0000;
-	border:2px solid #DB0800;
 }
 .new2{
 	font-style:italic;
@@ -38,7 +28,6 @@ h2{
 a{
 	text-decoration:none;
 	border-bottom:2px dashed #DB0800;
-	color:#cc0000;
 }
 .new4{
 	text-align:left;
