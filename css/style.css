@@ -17,6 +17,9 @@ p{
 	color:#6bc5e3;
 	font:italic bold 16px Tahoma;
 }
+ul{
+	list-style-type:none;
+}
 ul li{
 	color:#cc0000;
 }
