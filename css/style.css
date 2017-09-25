@@ -12,6 +12,7 @@ p{
 }
 ul{
 	list-style:inside url(../images/arrow.png);
+	color:#FF0000;
 }
 .new2{
 	font-style:italic;
