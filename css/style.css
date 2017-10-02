@@ -1,21 +1,27 @@
 body{
 	font:14px Tahoma;
 	color:#333333;
+	border:6px solid #111111;
+	padding:0;
+	margin:0;
 }
 p{
 	text-indent:30px;
 	line-height:1,5;
+	border:3px solid #DB0800;
 }
 #header{		
 	text-align:center;
 	text-transform:capitalize;
+	border:5px solid #DB0800;
+	padding:50px 10px;
+	margin:20px 15px 10px 5px;
 }
 ul{
 	list-style:inside url(../images/arrow.png);
-	color:#FF0000;
 }
 li{
-	color:#FF8080;
+	border:2px solid #DB0800;
 }
 .new2{
 	font-style:italic;
