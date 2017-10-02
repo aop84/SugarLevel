@@ -16,6 +16,7 @@ p{
 	border:5px solid #DB0800;
 	padding:50px 10px;
 	margin:20px 15px 10px 5px;
+	width:550px;
 }
 ul{
 	list-style:inside url(../images/arrow.png);
