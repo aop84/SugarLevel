@@ -15,7 +15,7 @@ p{
 	text-transform:capitalize;
 	border:5px solid #DB0800;
 	padding:50px 10px;
-	margin:20px 15px 10px 5px;
+	margin:20px auto 10px auto;
 	width:550px;
 	height:200px;
 }
