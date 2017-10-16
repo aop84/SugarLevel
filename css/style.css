@@ -8,12 +8,22 @@ body{
 p{
 	text-indent:30px;
 }
+#span1{
+	border:1px solid #cc0000;
+	padding:0 10px;
+	margin:0 30px;
+	display:block;
+}
 #header{		
 	text-align:center;
 	text-transform:capitalize;
 	padding:50px 10px;
 	margin:20px auto 10px auto;
 	width:550px;
+}
+ol li{
+	display:inline;
+	border:2px solid #DB0800;
 }
 ul{
 	list-style:inside url(../images/arrow.png);
