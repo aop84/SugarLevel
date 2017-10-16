@@ -4,15 +4,10 @@ body{
 	padding:15px;
 	margin:0 auto;
 	width:1000px;
+	background-color:#f6f6f6;
 }
 p{
 	text-indent:30px;
-}
-#span1{
-	border:1px solid #cc0000;
-	padding:0 10px;
-	margin:0 30px;
-	display:block;
 }
 #header{		
 	text-align:center;
@@ -20,11 +15,12 @@ p{
 	padding:50px 10px;
 	margin:20px auto 10px auto;
 	width:550px;
+	background-color:#cc0000;
+	color:#ffffff;
+	border:5px solid #FFDD00;
+	
 }
-ol li{
-	display:inline;
-	border:2px solid #DB0800;
-}
+
 ul{
 	list-style:inside url(../images/arrow.png);
 }
