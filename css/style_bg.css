@@ -14,4 +14,7 @@
 	outline:0px solid #cc0000;
 	padding-top:182px;
 	font:36px Verdana;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-position:130px 190px;
 }
