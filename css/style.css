@@ -48,6 +48,26 @@ a{
 .new6{
 	text-align:justify;
 }
+table, td, th{
+	border: 1px solid #cccccc;
+	text-align: center;
+}
+table{
+	width: 700px;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+td, th{
+	height: 50px;
+	padding: 5px;
+	vertical-align: middle;
+}
+th{
+	background-color: #FEFECC;
+}
+.blue{
+	background-color: #CEEFFF;
+}
 
 
 
