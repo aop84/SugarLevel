@@ -61,11 +61,12 @@ td, th{
 	height: 50px;
 	padding: 5px;
 	vertical-align: middle;
+	background-color: #FFFFFF;
 }
 th{
-	background-color: #FEFECC;
+	background-image: url(../images/tablebg.jpg); 
 }
-.blue{
+tr.blue td{
 	background-color: #CEEFFF;
 }
 
