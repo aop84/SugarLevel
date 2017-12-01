@@ -21,8 +21,6 @@
 	background-position:130px 190px;
 }
 #wrapper {
-		background-image:url(../images/tel.jpg);
-		background-repeat:no-repeat;
-		background-position:0 130px;
-		background-attachment:fixed;
+	background:url(../images/tel.jpg) no-repeat fixed 0 130px;
 }
+
