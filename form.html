@@ -10,18 +10,18 @@
 <form action="formdata.php" method="POST" name="form1">
 <fieldset>
 <legend>Ввод личных данных</legend>
-<p><label for="name">Введите Ваше имя (максимально 10 символов): <label></p>
+<p class="question"><label for="name">Введите Ваше имя (максимально 10 символов): <label></p>
 <p><input type="text" name="name" id="name" size="30" maxlength="10"></p>
-<p><label for="password">Введите Ваш пароль (максимально 10 символов): <label></p>
+<p class="question"><label for="password">Введите Ваш пароль (максимально 10 символов): <label></p>
 <p><input type="password" name="password" id="password" size="30" maxlength="10"></p>
 </fieldset>
 <fieldset>
 <legend>Вопросы</legend>
-<p>Любите ли Вы экономить время? 
+<p class="question">Любите ли Вы экономить время? 
 <label>Да<input type="radio" name="time" value="yes" checked></label>
 <label>Нет<input type="radio" name="time" value="no"></l</p>
 
-<p>Какими инструментами для экономии времени Вы пользуетесь?</p>
+<p class="question">Какими инструментами для экономии времени Вы пользуетесь?</p>
 
 <p>
 <label><input type="checkbox" name="ez" disabled>Ежедневник</label>
@@ -29,7 +29,7 @@
 <label><input type="checkbox" name="sv">Собственные наработки</label>
 </p>
 
-<p>Сколько часов в день Вы спите?</p>
+<p class="question">Сколько часов в день Вы спите?</p>
 <p>
 <select name="sleep" size="5" multiple>
 <option>5</option>
@@ -40,7 +40,7 @@
 </select>
 </p>
 </fieldset>
-<p><label for="text">Поделитесь своими наработками в экономии времени</label><p>
+<p class="question"><label for="text">Поделитесь своими наработками в экономии времени</label><p>
 <p><textarea name="text" cols="50" rows="6" id="text">Тестовый текст...</textarea></p>
 <p><input type="reset" name="reset" value="Сброс"><input type="submit" name="submit" value="Отправить"></p>
 <p><input type="image" src="images/ibutton.png"name="imageBbutton"></p>
