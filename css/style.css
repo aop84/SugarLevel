@@ -4,7 +4,8 @@ body{
 	padding:15px;
 	margin:0 auto;
 	width:1000px;
-	background-color:#f6f6f6;
+	background-color:#FFFFFF;
+	border:2px solid #cccccc;
 }
 p{
 	text-indent:30px;
@@ -68,6 +69,11 @@ th{
 }
 tr.blue td{
 	background-color: #CEEFFF;
+}
+#myImg{
+	float: right;
+	border: none;
+	margin: 20px 0 20px 50px;
 }
 
 
