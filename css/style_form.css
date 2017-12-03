@@ -8,3 +8,9 @@ body{
 .question{
 	font-weight: bold;
 }
+fieldset{
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #cccccc;
+	background-color: #FCFCFC;
+}
