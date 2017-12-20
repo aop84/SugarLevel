@@ -1,4 +1,4 @@
-body{
+﻿body{
 	background-color: #D2D2D2;
 	font: 11px Verdana;
 	color: #696969;
@@ -16,3 +16,19 @@ body{
 #content{
 padding: 20px 30px;	
 }
+#new{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#box{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #FADEC9;
+	width:300px;
+	height: 240px;
+}
+
+
+
