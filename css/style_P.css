@@ -27,6 +27,13 @@ padding: 20px 30px;
 	position: absolute;
 	left: 294px;
 	top: -14px;
+	z-index: 1;
+}
+#bird{
+	position: absolute;
+	left: 272px;
+	top: -3px;
+	z-index: 2;
 }
 #operator{
 	position: fixed;
