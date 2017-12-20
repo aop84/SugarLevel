@@ -42,6 +42,9 @@ padding: 20px 30px;
 	top: 250px;
 	left: 0;
 }
+#test{
+	visibility: hidden;
+}
 
 
 
