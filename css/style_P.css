@@ -44,7 +44,7 @@ padding: 20px 30px;
 	left: 0;
 }
 #test{
-	display: none;
+	padding: inherit;
 }
 
 
