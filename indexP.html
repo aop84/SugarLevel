@@ -2,8 +2,57 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="css/style_P.css" type="text/css" rel="stylesheet">
+<!--<link href="css/style_P.css" type="text/css" rel="stylesheet"> -->
 <title>Позиционирование</title>
+<style>
+body{
+	background-color: #D2D2D2;
+	font: 11px Verdana;
+	color: #696969;
+}
+#wrapper {
+	width: 650px;
+	margin: 30px auto;
+	background-color: #F4F4F4;
+}
+#header{
+	height: 75px;
+	background-image: url(../images/redHeader.png);
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+#content{
+padding: 20px 30px;	
+}
+#new{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#button{
+	position: absolute;
+	left: 294px;
+	top: -14px;
+	z-index: 1;
+}
+#bird{
+	position: absolute;
+	left: 272px;
+	top: -3px;
+	z-index: 2;
+}
+#operator{
+	position: fixed;
+	width: 22px;
+	height: 180px;
+	top: 250px;
+	left: 0;
+}
+#test{
+	display: none;
+}
+</style>
 </head>
 <body>
 	<div id="wrapper">
