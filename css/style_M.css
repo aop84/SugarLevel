@@ -7,7 +7,7 @@
 	margin: 30px auto;
 	background-color: #F4F4F4;
 	height: 520px;
-	min-width: 650px;
+	max-width: 900px;
 }
 #sidebarL{
 	width: 200px;
